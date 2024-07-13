@@ -1,9 +1,3 @@
-from py_edamam import Edamam
-from API_keys import *
-
-EAPI = Edamam(recipes_appid=ApplicationID,
-              recipes_appkey=ApplicationKey,
-              )
 
 import sqlite3
 from flask import current_app, g

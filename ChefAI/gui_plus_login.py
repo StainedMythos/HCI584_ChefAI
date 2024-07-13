@@ -1,7 +1,7 @@
 import tkinter as tk
 import json
 from tkinter import messagebox
-from APIPullReq import EAPI
+#from APIPullReq import EAPI
 
 
 class LoginGUI:
@@ -58,9 +58,10 @@ class LoginGUI:
         if username in users and users[username] == password:
             # If they match, destroy the login window and open the main application
             self.master.destroy()
-            main_app = tk.Tk()
-            RecipeGUI(main_app)
-            main_app.mainloop()
+        
+            #main_app = tk.Tk()
+            #RecipeGUI(main_app)
+            #main_app.mainloop()
         else:
             # If they don't match, show an error message
             messagebox.showerror("Login Error", "Invalid username or password")
