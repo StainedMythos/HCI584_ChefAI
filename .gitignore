@@ -1,5 +1,6 @@
 # API Key/ID
-ChefAI_Main/API_keys.py
+# ChefAI_Main/   Delete the # and 'this' text here, if the file gets moved
+API_keys.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
